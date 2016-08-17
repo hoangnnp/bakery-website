@@ -1,0 +1,82 @@
+{% extends 'default/layout.html.twig' %}
+
+{% block menu %}
+<!---start-top-nav---->
+<div class="top-nav">
+    <div class="top-nav-left">
+        <ul>
+            <li ><a href="{{ url('homepage') }}">{{ 'home_text'| trans }}</a></li>
+            <li><a href="{{ url('homepage') }}#menu">{{ 'Our Product'| trans }}</a></li>
+            <li class="active"><a href="{{ url('aboutpage') }}">{{ 'About'|trans }}</a></li>
+            <li><a href="{{ url('contactpage') }}">{{ 'Contact us'|trans }}</a></li>
+            <div class="clear"> </div>
+        </ul>
+    </div>
+    <div class="clear"> </div>
+</div>
+<!---End-top-nav---->
+{% endblock %}
+
+{% block view %}
+<div class="about-us">
+    <div class="wrap">
+        <div class="about-header">
+            <h3><b>About us</b></h3>
+            <div class="clear"> </div>
+        </div>
+        <div class="about-info">
+            <p style="font-size:large;text-align:justify;">
+                {{ 'Description_Text'|trans }}
+                {{ 'Description_text2'|trans}}
+                {{ 'Description_text3'|trans}}
+            </p>
+        </div>
+        <div class="specials">
+            <div class="specials-grids">
+                <table>
+                    <tr valign="top">
+                        <td style="text-align:right; padding-right: 10px;"><b style="font-size:large;">Voelker {{ 'Bakery'|trans }} I - {{ 'Ho Chi Minh City'|trans }} </b><br><br>
+                            39, {{ 'Thao Dien Street'|trans }}, {{ '2nd Districts'|trans }}, {{ 'Ho Chi Minh City'|trans }}<br><br>
+                            {{ 'Opening Hours:'|trans }}<br>
+                            {{ 'Monday - Friday'|trans }}: 10am - 9pm<br>
+                            {{ 'Saturday'|trans }}: 9am - 9pm<br>
+                            {{ 'Sunday'|trans }}: 12pm - 6pm
+                        </td>
+                        <td style="text-align:left;" colspan="2"><img src="http://kakilands.com/wp-content/uploads/2012/06/mondegreen_pain-davignon-08.jpg" alt="Store 1"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <hr style="width:80%;color:#ccc;margin:20px auto;" size="2">
+                        </td>
+                    </tr>     <tr valign="top">
+                        <td style="text-align:left;" colspan="2"><img src="http://villagebakeries.com/wp-content/uploads/2013/04/village-bakery-home-space.jpg"></td>
+                        <td style="text-align:left; padding-left: 10px;"><b style="font-size:large;">Voelker {{ 'Bakery'|trans }} II - {{ 'Ho Chi Minh City'|trans }} </b><br><br>
+                            12, {{ 'Nguyen Dinh Chieu Street'|trans }}, {{ '1 Districts'|trans }}, {{ 'Ho Chi Minh City'|trans }}<br><br>
+                            {{ 'Opening Hours:'|trans }}<br>
+                            {{ 'Monday - Friday'|trans }}: 10am - 9pm<br>
+                            {{ 'Saturday'|trans }}: 9am - 9pm<br>
+                            {{ 'Sunday'|trans }}: 12pm - 6pm
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <hr style="width:80%;color:#ccc;margin:20px auto;" size="2">
+                        </td>
+                    </tr>
+                    </table>
+                <div class="clear"> </div>
+            </div>
+            <div class="clear"> </div>
+        </div>
+    </div>
+    <div class="testmonials">
+        <div class="wrap">
+            <div class="testmonial-grid">
+                <h3>Life Motto</h3>
+                <p>“Yesterday is history, tomorrow is a mystery, today is a gift of God, which is why we call it the present.” </p>
+                <a href="#"> ― Bil Keane</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

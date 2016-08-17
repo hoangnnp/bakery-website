@@ -1,0 +1,54 @@
+{% extends 'default/layout.html.twig' %}
+{% block menu %}
+    <div class="top-nav">
+        <div class="top-nav-left">
+            <ul>
+                <li><a href="{{ url('homepage') }}">{{ 'home_text'| trans }}</a></li>
+                <li><a href="{{ url('homepage') }}#menu">{{ 'Our Product'| trans }}</a></li>
+                <li><a href="{{ url('aboutpage') }}">{{ 'About'|trans }}</a></li>
+                <li  class="active"><a href="{{ url('contactpage') }}">{{ 'Contact us'|trans }}</a></li>
+                <div class="clear"> </div>
+            </ul>
+        </div>
+        <div class="clear"> </div>
+    </div>
+{% endblock %}
+{% block view %}
+<div class="content">
+    <!---start-contact---->
+    <div class="contact">
+        <div class="wrap">
+            <div class="section group">
+                <div class="col span_2_of_3">
+                    <div class="contact-form">
+                        <h3><b>{{ 'Contact us'|trans }}</b></h3>
+                       {{ form_start(form) }}
+                            <div>
+                                <span><label>{{ 'NAME'|trans }}</label></span>
+                                <span> {{ form_widget(form.name,{'attr':{'class':'textbox'}}) }}</span>
+                            </div>
+                            <div>
+                                <span><label>{{ 'E-MAIL'|trans }}</label></span>
+                                <span> {{ form_widget(form.email,{'attr':{'class':'textbox'}}) }}</span>
+                            </div>
+                            <div>
+                                <span><label>{{ 'MOBILE'|trans }}</label></span>
+                                <span> {{ form_widget(form.mobile,{'attr':{'class':'textbox'}}) }}</span>
+                            </div>
+                            <div>
+                                <span><label>{{ 'SUBJECT'|trans }}</label></span>
+                                <span> {{ form_widget(form.subject,{'attr':{'class':'textbox'}}) }}</span>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        {{ form_end(form) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---End-contact---->
+</div>
+{% endblock %}
+

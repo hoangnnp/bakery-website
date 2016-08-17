@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="vi"  datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>home_text</source>
+                <target>Trang chủ</target>
+            </trans-unit>
+            <trans-unit id="2">
+                 <source>Our Product</source>
+                 <target>Sản Phẩm</target>
+            </trans-unit>
+             <trans-unit id="3">
+                  <source>About</source>
+                  <target>Về chúng tôi</target>
+            </trans-unit>
+            <trans-unit id="4">
+                   <source>Contact us</source>
+                   <target>Liên hệ</target>
+            </trans-unit>
+             <trans-unit id="5">
+                     <source>Read More</source>
+                     <target>Xem thêm</target>
+             </trans-unit>
+             <trans-unit id="6">
+                     <source>Bakery</source>
+                     <target>Bakery</target>
+             </trans-unit>
+             <trans-unit id="7">
+                    <source>Description_Text</source>
+                    <target>Tại Voelker Bakery, chúng tôi đặt khách hàng lên hàng đầu bằng cách tạo ra các sản phẩm theo tiêu chí lấy sức khỏe của khách hàng làm trọng tâm.Chúng tôi cung cấp cho khách hàng những kiến thức về sản phẩm tùy thuộc mục đích cụ thể của khách hàng và dù khách hàng có ăn kiêng họ vẫn được thưởng thức những sản phẩm với hương vị tuyệt vời tự nhiên tuyệt vời nhất.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                    <source>Opening Hours:</source>
+                    <target>Giờ Mở Cửa:</target>
+             </trans-unit>
+            <trans-unit id="9">
+                    <source>Monday - Friday</source>
+                    <target>Thứ 2 - Thứ 6</target>
+             </trans-unit>
+            <trans-unit id="10">
+                    <source>Saturday</source>
+                    <target>Thứ 7</target>
+             </trans-unit>
+            <trans-unit id="11">
+                    <source>Sunday</source>
+                    <target>Chủ Nhật</target>
+             </trans-unit>
+            <trans-unit id="12">
+                     <source>@Located</source>
+                     <target>@Địa chỉ</target>
+              </trans-unit>
+             <trans-unit id="13">
+                     <source>Thao Dien Street</source>
+                     <target>Đường Thảo Điền</target>
+              </trans-unit>
+             <trans-unit id="14">
+                     <source>2nd Districts</source>
+                     <target>Quận 2</target>
+              </trans-unit>
+             <trans-unit id="15">
+                     <source>Ho Chi Minh City</source>
+                     <target>Thành phố Hồ Chí Minh</target>
+              </trans-unit>
+            <trans-unit id="16">
+                     <source>Nguyen Dinh Chieu Street</source>
+                     <target>Đường Nguyễn Đình Chiểu</target>
+              </trans-unit>
+             <trans-unit id="17">
+                     <source>1 Districts</source>
+                     <target>Quận 1</target>
+              </trans-unit>
+             <trans-unit id="18">
+                     <source>DID YOU KNOW?</source>
+                     <target>Bạn có biết?</target>
+              </trans-unit>
+             <trans-unit id="19">
+                     <source>Description_text2</source>
+                     <target>Voelker Bakery cam kết mỗi sản phẩm đều được tạo thành từ những nguyên liệu tươi ngon nhất, phụ gia tự tạo, chất ngọt và chất bảo quản vừa phải. Bạn có thể xem những sản phẩm ngon lành của chúng tôi để cảm nhận!</target>
+              </trans-unit>
+            <trans-unit id="20">
+                      <source>Design by</source>
+                      <target>Thiết kế bởi</target>
+               </trans-unit>
+             <trans-unit id="21">
+                      <source>Description_text3</source>
+                      <target>Chúng tôi cũng xin được nói rằng chúng ta sử dụng nước chỉ lọc (hệ thống 5 giai đoạn UV lọc) để xử lý của chúng tôi, và chúng tôi không sử dụng các chất béo hydro hóa trong các sản phẩm của chúng tôi. Mẩu kiên quyết cam kết để thực phẩm lành mạnh được tạo ra từ những nguyên liệu chất lượng cao dẫn đến phương châm đơn giản của chúng tôi: "bạn Bakery địa phương".</target>
+              </trans-unit>
+            <trans-unit id="22">
+                      <source>NAME</source>
+                      <target>HỌ TÊN</target>
+             </trans-unit>
+            <trans-unit id="23">
+                      <source>E-MAIL</source>
+                      <target>E-MAIL</target>
+             </trans-unit>
+            <trans-unit id="24">
+                      <source>MOBILE</source>
+                      <target>ĐIỆN THOẠI</target>
+             </trans-unit>
+            <trans-unit id="25">
+                      <source>SUBJECT</source>
+                      <target>NỘI DUNG PHẢN HỒI</target>
+             </trans-unit>
+        </body>
+    </file>
+</xliff>

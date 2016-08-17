@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="fr"  datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>home_text</source>
+                <target>d'accueil</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Our Product</source>
+                <target>produits</target>
+            </trans-unit>
+            <trans-unit id="3">
+                  <source>About</source>
+                  <target>introduire</target>
+            </trans-unit>
+            <trans-unit id="4">
+                   <source>Contact us</source>
+                   <target>Contactez nous</target>
+            </trans-unit>
+             <trans-unit id="5">
+                     <source>Read More</source>
+                     <target>Lire la suite</target>
+             </trans-unit>
+            <trans-unit id="6">
+                     <source>Bakery</source>
+                     <target>boulangerie</target>
+             </trans-unit>
+            <trans-unit id="7">
+                    <source>Description_Text</source>
+                    <target>A Voelker Bakery nous mettons nos premiers clients en créant des solutions pour les tendances de la santé des consommateurs clés. Notre objectif principal est de fournir à nos clients locaux avec la connaissance des produits qui servent un but diététique spécifique et sont chargés avec une grande saveur naturelle. Il est la qualité de la nourriture et de la bonté saine des ingrédients qui fait Voelder Bakery une destination de choix.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                    <source>Opening Hours:</source>
+                    <target>Heures d'ouverture:</target>
+             </trans-unit>
+            <trans-unit id="9">
+                    <source>Monday - Friday</source>
+                    <target>Lundi - Vendredi</target>
+             </trans-unit>
+            <trans-unit id="10">
+                    <source>Saturday</source>
+                    <target>samedi</target>
+             </trans-unit>
+            <trans-unit id="11">
+                    <source>Sunday</source>
+                    <target>dimanche</target>
+             </trans-unit>
+            <trans-unit id="12">
+                     <source>@Located</source>
+                     <target>@Situé</target>
+              </trans-unit>
+             <trans-unit id="13">
+                     <source>Thao Dien Street</source>
+                     <target>Thao Dien rue</target>
+              </trans-unit>
+             <trans-unit id="14">
+                     <source>2nd Districts</source>
+                     <target>2nd Les quartiers</target>
+              </trans-unit>
+             <trans-unit id="15">
+                     <source>Ho Chi Minh City</source>
+                     <target>Ho Chi Minh Ville</target>
+              </trans-unit>
+            <trans-unit id="16">
+                     <source>Nguyen Dinh Chieu Street</source>
+                     <target>Nguyen Dinh Chieu rue</target>
+              </trans-unit>
+             <trans-unit id="17">
+                     <source>1 Districts</source>
+                     <target>1 Les quartiers</target>
+              </trans-unit>
+             <trans-unit id="18">
+                     <source>DID YOU KNOW?</source>
+                     <target>SAVAIS-TU?</target>
+              </trans-unit>
+             <trans-unit id="19">
+                     <source>Description_text2</source>
+                     <target> Voelker Bakery apporter à chacun des produits de boulangerie l'engagement à utiliser uniquement les ingrédients les plus frais, exempt d'additifs artificiels, les édulcorants artificiels ou conservateurs.</target>
+              </trans-unit>
+            <trans-unit id="20">
+                      <source>Design by</source>
+                      <target>Concu par</target>
+               </trans-unit>
+            <trans-unit id="21">
+                      <source>Description_text3</source>
+                      <target>Nous sommes également heureux de dire que nous utilisons de l'eau filtrée seulement (systèmes 5 étapes de filtration UV) pour notre traitement, et nous ne l'utilisons les graisses hydrogénées dans nos produits.Crumbs engagement sans compromis à des aliments sains créé à partir d'ingrédients de haute qualité ont abouti à notre devise simple: "Votre boulangerie locale".</target>
+               </trans-unit>
+            <trans-unit id="22">
+                      <source>NAME</source>
+                      <target>NOM</target>
+             </trans-unit>
+            <trans-unit id="23">
+                      <source>E-MAIL</source>
+                      <target>E-MAIL</target>
+             </trans-unit>
+            <trans-unit id="24">
+                      <source>MOBILE</source>
+                      <target>MOBILE</target>
+             </trans-unit>
+            <trans-unit id="25">
+                      <source>SUBJECT</source>
+                      <target>ASSUJETTIR</target>
+             </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,38 @@
+{% extends 'admin/layout.html.twig' %}
+{% block body %}
+<div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                Edit Product
+            </h1>
+        </section>
+        <section class="content">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="box box-primary">
+                        {{ form_start(form) }}
+                        <div class="box-body">
+                            <div class="form-group">
+                                {{ form_widget(form.name,{'attr':{'class':'form-control','placeholder':'username'}}) }}
+                            </div>
+                            <div class="form-group">
+                                {{ form_widget(form.price,{'attr':{'class':'form-control','placeholder':'passowrd'}})}}
+                            </div>
+                            <div class="form-group">
+                                {{ form_widget(form.image,{'attr':{'class':'form-control','placeholder':'retype-password'}})}}
+                            </div>
+                            <div class="form-group">
+                                {{ form_widget(form.description,{'attr':{'class':'form-control','placeholder':'email'}})}}
+                            </div>
+                        </div>
+                        <div class="box-footer">
+                            <button tyle="margin-right: " type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                        {{ form_end(form) }}
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock %}

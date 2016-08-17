@@ -1,0 +1,65 @@
+{% extends 'default/layout.html.twig' %}
+{% block menu %}
+        <div class="top-nav">
+            <div class="top-nav-left">
+                <ul>
+                    <li class="active"><a href="{{ url('homepage') }}">{{ 'home_text'| trans }}</a></li>
+                    <li><a href="#menu">{{ 'Our Product'| trans }}</a></li>
+                    <li><a href="{{ url('aboutpage') }}">{{ 'About'|trans }}</a></li>
+                    <li><a href="{{ url('contactpage') }}">{{ 'Contact us'|trans }}</a></li>
+                    <div class="clear"> </div>
+                </ul>
+            </div>
+            <div class="clear"> </div>
+        </div>
+{% endblock %}
+{% block view %}
+    <div class="slider">
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-src="images/slider2.jpg">  </div>
+            <div data-src="images/slider1.jpg">  </div>
+            <div data-src="images/slider4.jpg">  </div>
+            <div data-src="images/slider3.jpg">  </div>
+        </div>
+        <div class="clear"> </div>
+
+    </div>
+<!---start-content---->
+<div class="content">
+    <div class="top-grids">
+        <div class="wrap">
+            <div class="top-grid">
+                <a href="{{ url('aboutpage') }}"><img src="images/icon1.png" title="icon-name"></a>
+                <h3>{{ 'About'|trans }}</h3>
+                <a class="button" href="{{ url('aboutpage') }}">{{ 'Read More'|trans }}</a>
+            </div>
+            <div class="top-grid">
+                <a href="#munu"><img src="images/icon2.png" title="icon-name"></a>
+                <h3>{{ 'Our Product'|trans }}</h3>
+                <a class="button" href="#menu">{{ 'Read More'|trans }}</a>
+            </div>
+            <div class="top-grid last-topgrid">
+                <a href="{{ url('contactpage') }}"><img src="images/icon3.png" title="icon-name"></a>
+                <h3>{{ 'Contact us'|trans }}</h3>
+                <a class="button" href="{{ url('contactpage') }}">{{ 'Read More'|trans }}</a>
+            </div>
+            <div class="clear"> </div>
+        </div>
+    </div>
+    <div id="menu" class="bottom-grids">
+        {% for row in products|batch(4) %}
+            <div class="row">
+                {% for cell in row %}
+                    <div class="col-md-3">
+                        <img src="{{ cell.image }}" class="img-responsive">
+                        <div class="text-center">
+                            <h4 class="bg-info"> {{ cell.name }}</h4>
+                            <h6 class="text-muted"> {{ cell.description }}</h6>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

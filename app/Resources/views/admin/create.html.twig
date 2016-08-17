@@ -1,0 +1,50 @@
+{% extends 'admin/layout.html.twig' %}
+{% block body %}
+    <div class="content-wrapper">
+        <section class="content-header">
+            <h1>
+                {{ title }}
+            </h1>
+        </section>
+        <section class="content">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="box box-primary">
+                        {{ form_start(form) }}
+                        <div class="box-body">
+                            <div class="form-group">
+                                {{ form_widget(form.name_vi,{'attr':{'class':'form-control','placeholder':'Vietnamese Name'}}) }}
+                            </div>
+                            <div class="form-group">
+                                {{ form_widget(form.name_en,{'attr':{'class':'form-control','placeholder':'English Name'}}) }}
+                            </div>
+                            <div class="form-group">
+                                {{ form_widget(form.name_fr,{'attr':{'class':'form-control','placeholder':'France Name'}}) }}
+                            </div>
+                            <div class="form-group">
+                                {{ form_widget(form.price,{'attr':{'class':'form-control','placeholder':'price'}})}}
+                            </div>
+                            <div class="form-group">
+                                {{ form_widget(form.image,{'attr':{'class':'form-control','placeholder':'image link'}})}}
+                            </div>
+                            <div class="form-group">
+                                {{ form_widget(form.description_vi,{'attr':{'class':'form-control','placeholder':'Vietnamese description'}})}}
+                            </div>
+                            <div class="form-group">
+                                {{ form_widget(form.description_en,{'attr':{'class':'form-control','placeholder':'English description'}})}}
+                            </div>
+                            <div class="form-group">
+                                {{ form_widget(form.description_fr,{'attr':{'class':'form-control','placeholder':'France description'}})}}
+                            </div>
+
+                        </div>
+                        <div class="box-footer">
+                            <button tyle="margin-right: " type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                        {{ form_end(form) }}
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock %}

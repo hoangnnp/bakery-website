@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="en"  datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>home_text</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="2">
+                 <source>Our Product</source>
+                 <target>Our Product</target>
+             </trans-unit>
+            <trans-unit id="3">
+                  <source>About</source>
+                  <target>About</target>
+            </trans-unit>
+            <trans-unit id="4">
+                   <source>Contact us</source>
+                   <target>Contact us</target>
+            </trans-unit>
+             <trans-unit id="5">
+                     <source>Read More</source>
+                     <target>Read More</target>
+             </trans-unit>
+            <trans-unit id="6">
+                     <source>Bakery</source>
+                     <target>Bakery</target>
+             </trans-unit>
+            <trans-unit id="7">
+                    <source>Description_Text</source>
+                    <target>At Voelker Bakery we put our customers first by creating solutions for key consumer health trends. Our primary focus is to provide our local customers with product knowledge that serve a specific dietetic purpose and are loaded with great flavor naturally.It’s the quality of the food and wholesome goodness of the ingredients that makes Voelder Bakery a destination of choice.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                    <source>Opening Hours:</source>
+                    <target>Opening Hours:</target>
+             </trans-unit>
+            <trans-unit id="9">
+                    <source>Monday - Friday</source>
+                    <target>Monday - Friday</target>
+             </trans-unit>
+            <trans-unit id="10">
+                    <source>Saturday</source>
+                    <target>Saturday</target>
+             </trans-unit>
+            <trans-unit id="11">
+                    <source>Sunday</source>
+                    <target>Sunday</target>
+             </trans-unit>
+            <trans-unit id="12">
+                     <source>@Located</source>
+                     <target>@Located</target>
+              </trans-unit>
+             <trans-unit id="13">
+                     <source>Thao Dien Street</source>
+                     <target>Thao Dien Stree</target>
+              </trans-unit>
+             <trans-unit id="14">
+                     <source>2nd Districts</source>
+                     <target>2nd Districts</target>
+              </trans-unit>
+             <trans-unit id="15">
+                     <source>Ho Chi Minh City</source>
+                     <target>Ho Chi Minh City</target>
+              </trans-unit>
+            <trans-unit id="16">
+                     <source>Nguyen Dinh Chieu Street</source>
+                     <target>Nguyen Dinh Chieu Street</target>
+              </trans-unit>
+             <trans-unit id="17">
+                     <source>1 Districts</source>
+                     <target>1 Districts</target>
+              </trans-unit>
+             <trans-unit id="18">
+                     <source>DID YOU KNOW?</source>
+                     <target>DID YOU KNOW?</target>
+              </trans-unit>
+             <trans-unit id="19">
+                     <source>Description_text2</source>
+                     <target>Voelker Bakery bring to each baked products the commitment to use only the freshest ingredients, free of artificial additives, artificial sweeteners or preservatives.</target>
+              </trans-unit>
+            <trans-unit id="20">
+                      <source>Design by</source>
+                      <target>Design by</target>
+             </trans-unit>
+            <trans-unit id="21">
+                     <source>Description_text3</source>
+                     <target> We are also pleased to say we use only filtered water (5 Stages UV Filtration systems) for our processing, and we do not use hydrogenated fats in our products. Crumbs uncompromising commitment to wholesome food created from high-quality ingredients have resulted in our simple motto: “Your Local Bakery".</target>
+              </trans-unit>
+            <trans-unit id="22">
+                      <source>NAME</source>
+                      <target>NAME</target>
+             </trans-unit>
+            <trans-unit id="23">
+                      <source>E-MAIL</source>
+                      <target>E-MAIL</target>
+             </trans-unit>
+            <trans-unit id="24">
+                      <source>MOBILE</source>
+                      <target>MOBILE</target>
+             </trans-unit>
+            <trans-unit id="25">
+                      <source>SUBJECT</source>
+                      <target>SUBJECT</target>
+             </trans-unit>
+        </body>
+    </file>
+</xliff>
